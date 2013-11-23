@@ -1,0 +1,45 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  max-width: 600px;
+  padding: 30px;
+  line-height: 1.5;
+  background: url('bg.png') no-repeat fixed;
+}
+
+h1, h2, h3, h4, h5, #nav span {
+  color: #111;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #093;
+}
+
+a:hover {
+  background-color: #093;
+  color: #fff;
+}
+
+p, ul, ol, blockquote, table, #epi {
+  font-family: "Times New Roman", Times, serif;
+}
+
+#nav a, #nav span {
+  margin-right: 1.5rem;
+  font-weight: bold;
+}
+
+#updated {
+  margin-top: 5rem;
+}
+
+#bg-attr, #updated {
+  font-size: 0.8rem;
+}
+
+.right {
+  text-align: right;
+}
